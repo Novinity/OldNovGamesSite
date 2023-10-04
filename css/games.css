@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height:auto;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(#00ff55, #da6cf6);
+    background-repeat: no-repeat;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 30px;
+    display: inline;
+    padding: 0 5px;
+    float: right;
+}
+
+.navbar {
+    padding: 25px;
+    background-image: url("../media/images/BG.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color: #61eb8f;
+    background-position: 158px 0;
+    height: 37px;
+}
+
+.navbar-logo {
+    width: 5%;
+    display: inline;
+}
+
+.navbar h1 {
+    display: inline-block;
+    width: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+}
+
+center {
+    margin: auto;
+    width: 100%;
+    padding-top: 25px;
+    text-align: center;
+}
+
+center h1 {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+center ul {
+    margin: auto;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #e6e6e6;
+}
+
+center li {
+    display: inline;
+    padding: 20px;
+}
+
+center li > span {
+    display: block;
+    text-align: center;
+}
+
+center img {
+    width: 75%;
+}
+
+@media (max-width: 490px) {
+    .navbar h1 {
+        display: none;
+    }
+
+    a {
+        font-size: 20px;
+    }
+}
