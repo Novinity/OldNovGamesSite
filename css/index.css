@@ -142,6 +142,10 @@ a {
     font-style: italic;
 }
 
+.section2 img {
+    border-radius: 100%;
+}
+
 /* Section 3 stuff */
 .section3 {
     margin: auto;
